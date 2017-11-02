@@ -66,11 +66,11 @@ $ docker-compose run --rm web rails [コマンド]
 
 ```
 DB作成
-$ docker-compose run --rm web rails g db:create
+$ docker-compose run --rm web rails db:create
 DBマイグレーション
-$ docker-compose run --rm web rails g db:migrate
+$ docker-compose run --rm web rails db:migrate
 RSpec作成
-$ docker-compose run --rm web rails g rspec:init
+$ docker-compose run --rm web rails g rspec:install
 ```
 
 ## bundleコマンド実行
